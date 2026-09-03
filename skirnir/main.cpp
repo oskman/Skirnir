@@ -3,7 +3,7 @@
 
 int main()
 {
-	SystemMonitor sysmon;
+	skirnir::SystemMonitor sysmon;
 
     std::cout << "Memory usage: " << sysmon.get_memory_usage() << "%" << '\n';
     std::cout << "CPU usage: " << sysmon.get_cpu_usage() << "%" << '\n';

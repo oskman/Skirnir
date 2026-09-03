@@ -8,5 +8,6 @@ include_directories(include)
 
 
 add_executable(skirnir skirnir/main.cpp
-               skirnir/windows/winMonitor.cpp 
+               skirnir/windows/winMonitor.cpp
+                
 )
